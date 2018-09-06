@@ -19,6 +19,8 @@
     <environment-entries/>
     <configurations/>
     <required-roles/>
-    <remoteable-classes/>
+    <remoteable-classes>
+        <remoteable-class>com.bala.adv_query.AppData</remoteable-class>
+    </remoteable-classes>
     <limit-serialization-classes>true</limit-serialization-classes>
 </deployment-descriptor>
