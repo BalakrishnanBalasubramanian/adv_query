@@ -4,7 +4,7 @@
     <audit-persistence-unit>org.jbpm.domain</audit-persistence-unit>
     <audit-mode>JPA</audit-mode>
     <persistence-mode>JPA</persistence-mode>
-    <runtime-strategy>PER_PROCESS_INSTANCE</runtime-strategy>
+    <runtime-strategy>SINGLETON</runtime-strategy>
     <marshalling-strategies>
         <marshalling-strategy>
             <resolver>mvel</resolver>
@@ -20,7 +20,7 @@
     <configurations/>
     <required-roles/>
     <remoteable-classes>
-        <remoteable-class>com.bala.adv_query.AppData</remoteable-class>
+          <remoteable-class>com.bala.adv_query.AppData</remoteable-class>
     </remoteable-classes>
     <limit-serialization-classes>true</limit-serialization-classes>
 </deployment-descriptor>
