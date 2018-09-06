@@ -45,6 +45,11 @@
       <version>7.9.0.Final</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-persistence-jpa</artifactId>
+      <version>7.9.0.Final</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
